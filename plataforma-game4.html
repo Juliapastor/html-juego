@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma</title>
+    <link rel="stylesheet" href="estilos1.css">
+    <script src="https://kit.fontawesome.com/b634a522da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Encabezado con el Logo-->
+    <header class="header">
+        <a href="https://universae.com" class="principal">
+            <img src="InterfazHome/HeaderWebUniversae.png" class="logo" alt="">
+        </a>
+    </header>
+   <!--Panel con el juego--> 
+    <section>
+        <div class="container">
+            <div class="panel-contenido">
+                <iframe src="https://html-classic.itch.zone/html/8474473/index.html" height="680px" width="850px" allowfullscreen></iframe>
+            </div>
+        </div>
+    <!--Descripcion-->
+    <div class="columnas">
+        <div class="descrip">
+            <h3>
+                 Mantenimiento de los equipos y herramientas de extinción de incendios forestales.
+             </h3>
+             <p>
+                 En un campo de prácticas sumido en el desorden y la confusión tienes que encontrar tienes que encontrar y colocar las partes de los EPIs utilizados en la extinción de incendios forestales.
+             </p>
+             <p>
+                 Grado: Coordinación de emergencias y protección civil.
+             </p>
+             <p>
+                 Asignatura: Gestión de recursos de emergencias y protección civil
+             </p>
+             <p>
+                 Unidad: Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.
+             </p>
+             <p>
+                 Duración aproximada: 10 minutos.
+             </p>
+             <p>
+                 Dificultad: Fácil.
+            </p>
+        </div>
+     
+        <!--foto normal-->
+    <div class="row">
+        <div class="fila">
+            <img src="InterfazGame/Miniaturas/EPIS/EPIS0.png" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="fila">
+            <img src="InterfazGame/Miniaturas/EPIS/EPIS1.png" style="width:30%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="fila">
+            <img src="InterfazGame/Miniaturas/EPIS/EPIS2.png" style="width:30%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="fila">
+            <img src="InterfazGame/Miniaturas/EPIS/EPIS3.png" style="width:30%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="fila">
+            <img src="InterfazGame/Miniaturas/EPIS/EPIS4.png" style="width:30%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+    </div>
+    </div>
+  <!--foto grande-->
+  <div id="myModal" class="modal">
+
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+        <img src="InterfazGame/Miniaturas/EPIS/EPIS0.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+        <img src="InterfazGame/Miniaturas/EPIS/EPIS1.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <img src="InterfazGame/Miniaturas/EPIS/EPIS2.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="InterfazGame/Miniaturas/EPIS/EPIS3.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="InterfazGame/Miniaturas/EPIS/EPIS4.png" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)"><img src="InterfazGame/Flecha izquierda.png"></a>
+      <a class="next" onclick="plusSlides(1)"><img src="InterfazGame/Flecha derecha.png"></a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  <!---Miniaturas-->
+      <div class="column">
+        <img class="demo cursor" src="InterfazGame/Miniaturas/EPIS/EPIS0.png" style="width:100%" onclick="currentSlide(1)" alt="Imagen 1">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="InterfazGame/Miniaturas/EPIS/EPIS1.png" style="width:100%" onclick="currentSlide(2)" alt="Imagen 2">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="InterfazGame/Miniaturas/EPIS/EPIS2.png" style="width:100%" onclick="currentSlide(3)" alt="Imagen 3">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="InterfazGame/Miniaturas/EPIS/EPIS3.png" style="width:100%" onclick="currentSlide(4)" alt="Imagen 4">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="InterfazGame/Miniaturas/EPIS/EPIS4.png" style="width:100%" onclick="currentSlide(5)" alt="Imagen 5">
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="icono">
+
+        <a href="https://www.facebook.com/UNIVERSAE/" class="enlace"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/_universae/?hl=es" class="enlace"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/c/UNIVERSAE_FP" class="enlace"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.youtube.com/c/UNIVERSAE_FP" class="enlace"><i class="fa-brands fa-twitch"></i></a>
+        <a href="https://www.linkedin.com/school/universae" class="enlace"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@_universae" class="enlace"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://twitter.com/_Universae" class="enlace"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://universae.com" class="enlace"><i class="fa-brands fa-google"></i></a>
+    </div>
+</footer> 
+</body>
+  <script>
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  window.addEventListener('click', function(event) {
+            var modal = document.getElementById('myModal');
+            if (event.target == modal) {
+                closeModal();
+            }
+        });
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>   
+
+   
+</html>
